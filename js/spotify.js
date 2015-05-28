@@ -17,7 +17,8 @@ function getSearchResults() {
     $('#results').empty();
     if (getType() == "artist"){
       $.each(data.artists.items, function(index, item) {
-        $('#results').append("<li>"+ item.name +"</li>")
+        $('#results').append("<li>"+ item.name +"</li>");
+        $('#results').append('<li><img src="' + item.images[1].url + '"></li>');
       })
     }
     if (getType() == "album"){
@@ -28,8 +29,7 @@ function getSearchResults() {
     }
     if (getType() == "track"){
       $.each(data.tracks.items, function(index, item) {
-        $('#results').append("<li>"+ item.name +"</li>");
-        console.log(item.preview_url);
+        $('#results').append("<li>"+ item.name + ' - ' + item.artists[0].name + "</li>");
         $('#results').append('<li><audio src="' + item.preview_url + '" controls></audio></li>');
       })
     }

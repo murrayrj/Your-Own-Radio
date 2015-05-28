@@ -8,7 +8,7 @@ body
 ul
 {
     font-family: 'Hans Kendrick 3';
-    font-size: 45px;
+    font-size: 40px;
     list-style-type: none;
     text-align: center;
     color: white;
@@ -16,11 +16,11 @@ ul
 }
 li
 {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 form
 {
-    padding: 15px 25px;
+    padding: 15px 0px;
     background-color: black;
 }
 h1
@@ -54,7 +54,7 @@ h1
 }
 .inputs
 {
-    margin-left: 285px;
+    margin-left: 300px;
     padding: 10px 0;
 }
 @font-face
