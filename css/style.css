@@ -36,9 +36,10 @@ h1
     font-family: 'Hans Kendrick 3';
     font-size: 24px;
     display: inline-block;
-    width: 110px;
+    width: 100px;
+    height: 36px;
     border: 2px solid gray;
-    border-radius: 15px;
+    border-radius:20px;
 }
 .search
 {
