@@ -21,7 +21,7 @@ li
 form
 {
     padding: 15px 25px;
-    background-color: #608913;
+    background-color: black;
 }
 h1
 {
@@ -29,7 +29,7 @@ h1
     margin: 0;
     padding-top: 10px;
     text-align: center;
-    color: black;
+    color: white;
 }
 .button
 {
@@ -37,7 +37,6 @@ h1
     font-size: 24px;
     display: inline-block;
     width: 110px;
-    opacity: .85;
     border: 2px solid gray;
     border-radius: 15px;
 }
@@ -45,9 +44,10 @@ h1
 {
     font-family: 'Hans Kendrick 3';
     font-size: 24px;
+    color: white;
+    background-color: black;
     display: inline-block;
     width: 280px;
-    opacity: .75;
     border: 2px solid gray;
     border-radius: 10px;
 }
@@ -66,3 +66,4 @@ h1
     font-family: Hans Kendrick 3;
     src: url(HansKendrick-Regular.otf);
 }
+/*#608913*/
