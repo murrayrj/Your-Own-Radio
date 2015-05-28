@@ -1,38 +1,61 @@
-body {
-  font-family: 'Arkhip';
-  margin: 0;
-  background-image: url('./Rustic Wood 1.png');
-  background-repeat: repeat-x repeat-y;
+body
+{
+    font-family: 'Arkhip';
+    margin: 0;
+    background-image: url('./Rustic Wood 1.png');
+    background-repeat: repeat-x repeat-y;
 }
-ul {
-  font-family: 'Hans Kendrick 3';
-  font-size: 45px;
-  color: white;
-  text-align: center;
-  list-style-type: none;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+ul
+{
+    font-family: 'Hans Kendrick 3';
+    font-size: 45px;
+    list-style-type: none;
+    text-align: center;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-li{
-  padding-top: 20px;
+li
+{
+    padding-top: 20px;
 }
-form {
-  background-color: #608913;
-  color: #fff;
-  padding: 10px 25px;
+form
+{
+    padding: 15px 25px;
+    background-color: #608913;
 }
-
-h1 {
-  font-size: 60px;
-  margin: 0;
-  text-align: center;
-  color: black;
+h1
+{
+    font-size: 72px;
+    margin: 0;
+    padding-top: 10px;
+    text-align: center;
+    color: black;
 }
-
-a {
-  color: #c00;
+.button
+{
+    font-family: 'Hans Kendrick 3';
+    font-size: 24px;
+    display: inline-block;
+    width: 110px;
+    opacity: .85;
+    border: 2px solid gray;
+    border-radius: 15px;
 }
-
+.search
+{
+    font-family: 'Hans Kendrick 3';
+    font-size: 24px;
+    display: inline-block;
+    width: 280px;
+    opacity: .75;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+.inputs
+{
+    margin-left: 285px;
+    padding: 10px 0;
+}
 @font-face
 {
     font-family: Arkhip;

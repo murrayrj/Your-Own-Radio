@@ -7,13 +7,13 @@
 <body>
   <form id="search">
     <h1>Your Own Radio</h1>
-    <input type="search" id="search-keyword">
-      <select id="search-type">
-        <option value="album">Search by album</option>
-        <option value="artist">Search by artist</option>
-        <option value="track">Search by track name</option>
+    <div class="inputs"><input type="search" class="search" id="search-keyword" autofocus>
+      <select id="search-type" class="search">
+        <option value="album" >Search by Album</option>
+        <option value="artist">Search by Artist</option>
+        <option value="track">Search by Track Name</option>
       </select>      
-    <input type="submit" value="Submit">
+    <input type="submit" class="button" value="Search"></div>
   </form>
   
   <ul id="results"></ul>
